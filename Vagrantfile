@@ -1,11 +1,10 @@
-# Created by Jonas Rosland, @virtualswede & Matt Cowger, @mcowger
 # Many thanks to this post by James Carr: http://blog.james-carr.org/2013/03/17/dynamic-vagrant-nodes/
 
-# vagrant box
-vagrantbox="centos_6.5"
+#vagrantbox="centos_7"
+vagrantbox="puppetlabs/centos-7.0-64-nocm"
 
 # vagrant box url
-vagrantboxurl="https://github.com/2creatives/vagrant-centos/releases/download/v6.5.3/centos65-x86_64-20140116.box"
+vagrantboxurl="puppetlabs/centos-7.0-64-nocm"
 
 # scaleio admin password
 password="Scaleio123"
@@ -30,7 +29,7 @@ clusterinstall = "True" #If True a fully working ScaleIO cluster is installed. F
 version = "1.32-402.1"
 
 #OS Version of package
-os="el6"
+os="el7"
 
 # installation folder
 siinstall = "/opt/scaleio/siinstall"
